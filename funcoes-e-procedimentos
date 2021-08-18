@@ -1,0 +1,40 @@
+//Exercício 01 - Imprimir algo
+function imprimir(a) {
+    console.log(a);
+}
+
+//Exercício 02 - Comparação booleana
+function mesmoNome (a, b) {
+    return a == b
+}
+
+//Exercício 03 - Comparação booleana
+function maioridade (a) {
+    return a >= 18
+}
+maioridade(12)
+
+//Exercício 04 - Cálculo de Juros
+function valorComJuros (a) {
+    var total = ((a*10)/100) + a;
+    return total
+}
+valorComJuros(984.5);
+
+//Exercício 05 - Média arimética
+function mediaArit(itens) {
+    soma = 0
+    for (cont = 0; cont < itens.length; cont++) {
+        soma += itens[cont];
+    }
+    return soma / itens.length
+}
+
+//Exercício 06 - Margem Bruta
+function margemBruta(receitaLiq, custoProd) {
+    let lucroBruto = receitaLiq - custoProd;
+    return (lucroBruto/receitaLiq) * 100;
+}
+
+
+
